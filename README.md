@@ -20,6 +20,7 @@ Nodecraft generally supports any browser with >0.5% usage on its primary domain,
 
 ### browserslist
 ```
+> 0.5% in @nodecraft/browserslist-config stats
 extends @nodecraft/browserslist-config
 ```
 
@@ -27,6 +28,9 @@ extends @nodecraft/browserslist-config
 
 ```json
 {
-  "browserslist": ["extends @nodecraft/browserslist-config"]
+  "browserslist": [
+  	"> 0.5% in @nodecraft/browserslist-config stats",
+  	"extends @nodecraft/browserslist-config"
+  ]
 }
 ```

@@ -1,6 +1,5 @@
 module.exports = {
 	"production": [
-		"> 0.5% in my stats",
 		"last 3 chrome versions",
 		"last 3 edge versions",
 		"last 3 firefox versions",
