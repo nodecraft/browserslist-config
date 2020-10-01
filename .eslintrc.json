@@ -1,0 +1,13 @@
+{
+	"root": true,
+	"parserOptions": {
+		"sourceType": "module"
+	},
+	"extends": [
+		"nodecraft"
+	],
+	"plugins": [
+		"json",
+		"node"
+	]
+}
