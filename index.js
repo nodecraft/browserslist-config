@@ -6,10 +6,7 @@ module.exports = {
 		"firefox esr",
 		"last 3 ios versions",
 		"last 3 safari versions",
-		"last 1 samsung versions",
-		"not ie <= 11",
-		"not ChromeAndroid 4",
-		"not dead"
+		"last 1 samsung versions"
 	],
 	"development": [
 		"last 1 chrome version",

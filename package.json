@@ -1,6 +1,6 @@
 {
 	"name": "@nodecraft/browserslist-config",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Nodecraft Browserslist config",
 	"homepage": "https://github.com/nodecraft/browserslist-config#readme",
 	"bugs": {
