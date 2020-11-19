@@ -1,6 +1,6 @@
 {
 	"name": "@nodecraft/browserslist-config",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Nodecraft Browserslist config",
 	"homepage": "https://github.com/nodecraft/browserslist-config#readme",
 	"bugs": {
@@ -19,9 +19,9 @@
 		"test": "npm run lint"
 	},
 	"devDependencies": {
-		"browserslist": "^4.14.6",
+		"browserslist": "^4.14.7",
 		"cross-env": "^7.0.2",
-		"eslint": "^7.12.1",
+		"eslint": "^7.13.0",
 		"eslint-config-nodecraft": "^6.1.0",
 		"eslint-plugin-json": "^2.1.2",
 		"eslint-plugin-node": "^11.1.0"
