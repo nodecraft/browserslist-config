@@ -11,7 +11,7 @@ Share browsers list between different front-end tools, like [stylelint](https://
 
 ## Browser support
 
-Nodecraft generally supports any browser with >0.5% usage on its primary domain, Nodecraft.com, as well as the last 3 versions of every major browser. These stats can be found in the `browserslist-stats.json`. There are a few exceptions:
+Nodecraft generally supports the last 3 versions of every major browser. There are a few exceptions:
 
 - IE is never supported
 - Firefox ESR is always supported
@@ -21,7 +21,7 @@ Nodecraft generally supports any browser with >0.5% usage on its primary domain,
 ### browserslist
 ```
 extends @nodecraft/browserslist-config
-> 0.5% in @nodecraft/browserslist-config stats and not extends @nodecraft/browserslist-config/exclude
+not extends @nodecraft/browserslist-config/exclude
 ```
 
 ### package.json
@@ -30,7 +30,7 @@ extends @nodecraft/browserslist-config
 {
   "browserslist": [
   	"extends @nodecraft/browserslist-config",
-  	"> 0.5% in @nodecraft/browserslist-config stats and not extends @nodecraft/browserslist-config/exclude"
+  	"not extends @nodecraft/browserslist-config/exclude"
   ]
 }
 ```
