@@ -1,6 +1,6 @@
 {
 	"name": "@nodecraft/browserslist-config",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "Nodecraft Browserslist config",
 	"homepage": "https://github.com/nodecraft/browserslist-config#readme",
 	"bugs": {
@@ -14,17 +14,17 @@
 	"author": "Nodecraft Inc.",
 	"main": "index.js",
 	"scripts": {
-		"browserslist": "cross-env BROWSERSLIST_DANGEROUS_EXTEND=1 npx --ignore-existing browserslist \"extends ./index.js\"",
+		"browserslist": "cross-env BROWSERSLIST_DANGEROUS_EXTEND=1 npx browserslist \"extends ./index.js\"",
 		"lint": "eslint .",
 		"test": "npm run lint"
 	},
 	"devDependencies": {
-		"@nodecraft/eslint-config": "^12.0.1",
-		"browserslist": "^4.17.5",
+		"@nodecraft/eslint-config": "^16.0.0",
+		"browserslist": "^4.20.2",
 		"cross-env": "^7.0.3",
-		"eslint": "^8.1.0",
+		"eslint": "^8.12.0",
 		"eslint-plugin-json": "^3.1.0",
 		"eslint-plugin-node": "^11.1.0",
-		"eslint-plugin-unicorn": "^37.0.1"
+		"eslint-plugin-unicorn": "^41.0.1"
 	}
 }
