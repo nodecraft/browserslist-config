@@ -19,11 +19,11 @@
 		"test": "npm run lint"
 	},
 	"devDependencies": {
-		"@nodecraft/eslint-config": "^41.0.0",
-		"browserslist": "^4.23.2",
+		"@nodecraft/eslint-config": "^43.1.0",
+		"browserslist": "^4.24.0",
 		"cross-env": "^7.0.3",
-		"eslint": "^8.57.0",
-		"eslint-plugin-json": "^4.0.0",
+		"eslint": "^8.57.1",
+		"eslint-plugin-json": "^4.0.1",
 		"eslint-plugin-node": "^11.1.0",
 		"eslint-plugin-unicorn": "^55.0.0"
 	}
