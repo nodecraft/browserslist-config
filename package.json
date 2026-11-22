@@ -1,6 +1,6 @@
 {
 	"name": "@nodecraft/browserslist-config",
-	"version": "3.0.0",
+	"version": "0.0.0-semantically-released",
 	"description": "Nodecraft Browserslist config",
 	"homepage": "https://github.com/nodecraft/browserslist-config#readme",
 	"bugs": {
@@ -13,18 +13,30 @@
 	"license": "MIT",
 	"author": "Nodecraft Inc.",
 	"main": "index.js",
+	"files": [
+		"index.js",
+		"exclude.js"
+	],
 	"scripts": {
 		"browserslist": "cross-env BROWSERSLIST_DANGEROUS_EXTEND=1 npx browserslist \"extends ./index.js\"",
 		"lint": "eslint .",
-		"test": "npm run lint"
+		"lint:fix": "eslint . --fix",
+		"test": "node --test"
 	},
 	"devDependencies": {
-		"@nodecraft/eslint-config": "^43.1.0",
-		"browserslist": "^4.24.0",
-		"cross-env": "^7.0.3",
-		"eslint": "^8.57.1",
-		"eslint-plugin-json": "^4.0.1",
-		"eslint-plugin-node": "^11.1.0",
-		"eslint-plugin-unicorn": "^55.0.0"
+		"@nodecraft/eslint-config": "^54.0.0",
+		"@stylistic/eslint-plugin": "^5.10.0",
+		"browserslist": "^4.29.5",
+		"cross-env": "^10.1.0",
+		"eslint": "^10.15.0",
+		"eslint-plugin-import-newlines": "^2.0.0",
+		"eslint-plugin-import-x": "^4.18.1",
+		"eslint-plugin-n": "^18.5.0",
+		"eslint-plugin-regexp": "^3.3.3",
+		"eslint-plugin-unicorn": "^79.0.0",
+		"semantic-release": "^25.0.9"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
