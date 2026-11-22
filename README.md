@@ -1,4 +1,6 @@
-# browserslist-config
+# @nodecraft/browserslist-config
+[![CI](https://github.com/nodecraft/browserslist-config/actions/workflows/ci.yml/badge.svg)](https://github.com/nodecraft/browserslist-config/actions/workflows/ci.yml)
+
 Nodecraft's browserslist configuration
 
 ## What is Browserslist?
