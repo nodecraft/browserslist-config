@@ -1,4 +1,0 @@
-build/**/*.js
-store/**/*.js
-store/**/*.json
-dist/**/*.js

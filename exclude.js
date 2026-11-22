@@ -1,3 +1,4 @@
+'use strict';
 module.exports = [
 	'ie <= 11',
 	'and_chr 4',

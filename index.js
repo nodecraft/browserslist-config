@@ -1,3 +1,4 @@
+'use strict';
 module.exports = {
 	production: [
 		'last 3 chrome versions',
