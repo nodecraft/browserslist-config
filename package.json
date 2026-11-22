@@ -13,6 +13,10 @@
 	"license": "MIT",
 	"author": "Nodecraft Inc.",
 	"main": "index.js",
+	"files": [
+		"index.js",
+		"exclude.js"
+	],
 	"scripts": {
 		"browserslist": "cross-env BROWSERSLIST_DANGEROUS_EXTEND=1 npx browserslist \"extends ./index.js\"",
 		"lint": "eslint .",
