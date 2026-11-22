@@ -25,7 +25,7 @@
 	},
 	"devDependencies": {
 		"@nodecraft/eslint-config": "^54.0.0",
-		"@stylistic/eslint-plugin": "^5.10.0",
+		"@stylistic/eslint-plugin": "^6.0.0",
 		"browserslist": "^4.29.5",
 		"cross-env": "^10.1.0",
 		"eslint": "^10.15.0",
